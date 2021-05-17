@@ -1,0 +1,412 @@
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius:4px;
+    background: rgb(0,120,202);
+    background: radial-gradient(circle, rgba(0,120,202,1) 70%, rgba(55,165,223,1) 100%);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+div.clear{
+    clear: both;
+}
+
+div.container{
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+div.header{
+    width: 100%;
+    height: 650px;
+    background: hsla(204, 100%, 40%, 1);
+    background: linear-gradient(180deg, hsla(204, 100%, 40%, 1) 30%, hsla(225, 89%, 47%, 1) 100%);
+    color: white;
+}
+
+div.header div.background-peoples{
+    position: absolute;
+    max-width: 1143px;
+    width: 70%;
+    height: 616px;
+    top: 56px;
+    right:0;
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+
+div.header div.container{
+    z-index: 998;
+    position: relative;
+}
+
+div.header div.header-in-header{
+    z-index: 999;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    padding: 20px 0;
+}
+
+div.header-in-header div.header-logo{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.header-in-header nav.buttons{
+    display: inline-block;
+    width: calc(100% - 175px);
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;
+    margin-top: 5px;
+    text-align: center;
+}
+
+div.header-in-header nav.buttons ul{
+    list-style-type: none;
+}
+
+div.header-in-header nav.buttons ul li{
+    display: inline-block;
+    padding: 0 7px;
+}
+
+div.header-in-header nav.buttons ul li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+div.header-in-header div.button-chat-now{
+    float: right;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    vertical-align: top;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+div.header div.download-infos{
+    width: 60%;
+    height: 500px;
+    padding: 80px;
+}
+
+div.header div.download-infos h2{
+    font-size: 48px;
+    font-weight: 800;
+    padding: 15px 0;
+    color: white;
+}
+
+div.header div.download-infos p{
+    font-size: 18px;
+    color: white;
+}
+
+div.header div.download-infos div.button-download{
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 35px 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+div.section-infos{
+    width: 100%;
+}
+
+div.section-infos div.info-livesubtitles{
+    width: 100%;
+    height: 558px;
+    background-color: white;
+}
+
+div.section-infos div.container{
+    max-width: 1336px;
+}
+
+div.section-infos div.wraper{
+    width: 100%;
+    height: 558px;
+    display: inline-flex;
+}
+
+div.section-infos div.info-image{
+    width: 40%;
+    height: 558px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.section-infos div.info-texts{
+    width: 60%;
+    height: 400px;
+    margin: 79px 0;
+    padding: 100px 60px;
+}
+
+div.info-texts h2{
+    font-size: 38px;
+    font-weight: 600px;
+    padding: 10px 0;
+    color: black;
+}
+
+div.info-texts p{
+    width: 60%;
+    font-size: 18px;
+    color: black;
+}
+
+div.section-infos div.button-more{
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #005DAD;
+    border-radius: 15px;
+    margin: 20px 5px;
+    cursor: pointer;
+}
+
+div.info-skypenumber{
+    width: 100%;
+    height: 558px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+}
+
+div.info-recording{
+    width: 100%;
+    height: 558px;
+    background-color: white;
+}
+
+div.info-screenshare{
+    width: 100%;
+    height: 558px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+}
+
+div.info-trybrowser{
+    width: 100%;
+    height: 558px;
+    background-color: white;
+    text-align: center;
+}
+
+div.info-trybrowser div.trybrowser{
+    width: 100%;
+    height: 400px;
+    margin: 85px 0;
+    padding: 100px 60px;
+}
+
+div.info-trybrowser h2{
+    width: 100%;
+    font-size: 38px;
+    color: black;
+    font-weight: 600;
+}
+
+div.info-trybrowser div.browsers-images{
+    width: 100%;
+    padding: 40px 0;
+}
+
+div.info-trybrowser div.browsers-images div.browser{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+
+div.info-trybrowser div.button-chat-now{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: #005DAD;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1045px){
+    
+
+    div.header{
+        height: 775px;
+    }
+
+    div.header div.background-peoples{
+        position: absolute;
+        width: 80%;
+        height: 616px;
+        top: 177px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-size: contain;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+    
+    div.header div.download-infos{
+        width: 100%;
+        height: 500px;
+        padding: 40px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 790px){
+
+    div.header-in-header div.header-logo{
+        display: block;
+        background-size: contain;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+
+    div.header-in-header nav.buttons{
+        display: none;
+    }
+
+    div.header-in-header div.button-chat-now{
+        display: none;
+    }
+
+    div.section-infos div.wraper{
+        width: 100%;
+        height: 558px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.section-infos div.info-image{
+        width: 100%;
+        height: 227px;
+        margin-top: 50px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    div.section-infos div.info-texts{
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    div.info-texts p{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    div.section-infos div.button-more{
+        display: inline-block;
+    }
+
+    div.skypenumber-image, div.screenshare-image{
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+
+    div.skypenumber-texts, div.screenshare-texts{
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+
+
+}
+
+
+@media screen and (max-width: 450px){
+
+    div.header{
+        height: 610px;
+    }
+
+    div.header div.background-peoples{
+        position: absolute;
+        width: 80%;
+        height: 616px;
+        top: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-size: contain;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+
+    div.header div.download-infos{
+        width: 100%;
+        height: 500px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    div.info-trybrowser div.trybrowser{
+        padding: 100px 10px;
+    }
+
+    
+
+}
