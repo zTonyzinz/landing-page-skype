@@ -13,23 +13,23 @@ Criei uma página do Skype inspirada em algumas partes do site do Discord. Com c
 
 ## Desktop Version
 
-<img src="./.github/previews/desktop2.png" style="margin: 40px 0 0 0;"/>
+<img src="./previews/desktop2.png" style="margin: 40px 0 0 0;"/>
 
-<img src="./.github/previews/desktop.png" style="margin: 40px 0;"/>
+<img src="./previews/desktop.png" style="margin: 40px 0;"/>
 
 ## Tablet Version
 
-<img src="./.github/previews/tablet.png" style="background-size: 100% 100%;margin: 40px 0 0 0;"/>
+<img src="./previews/tablet.png" style="background-size: 100% 100%;margin: 40px 0 0 0;"/>
 
-<img src="./.github/previews/tablet2.png" style="background-size: 100% 100%;margin: 40px 0 0 0;"/>
+<img src="./previews/tablet2.png" style="background-size: 100% 100%;margin: 40px 0 0 0;"/>
 
-<img src="./.github/previews/tablet3.png" style="margin: 40px 0;"/>
+<img src="./previews/tablet3.png" style="margin: 40px 0;"/>
 
 ## Phone Version
 
-<img src="./.github/previews/phone.png" style="background-size: 100% 100%;margin: 40px 0 0 0;"/>
+<img src="./previews/phone.png" style="background-size: 100% 100%;margin: 40px 0 0 0;"/>
 
-<img src="./.github/previews/phone2.png" style="background-size: 100% 100%;margin: 40px 0 0 0;"/>
+<img src="./previews/phone2.png" style="background-size: 100% 100%;margin: 40px 0 0 0;"/>
 
-<img src="./.github/previews/phone3.png" style="margin: 40px 0 0 0;"/>
+<img src="./previews/phone3.png" style="margin: 40px 0 0 0;"/>
 
